@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalRoot component renders ModalRoot unchanged 1`] = `
+<div>
+  <div
+    class="fixed inset-0 z-40 bg-black/25 text-gray-700"
+  >
+    <div
+      class="flex h-full w-full items-center justify-center"
+    >
+      <div
+        class="absolute z-50 mx-auto my-0 flex h-80 w-[480px] flex-col overflow-hidden rounded-xl bg-white shadow-2xl"
+      >
+        <p>
+          Modal Content
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalTitle renders ModalRoot unchanged 1`] = `
+<div>
+  <p
+    class="text-md font-bold text-gray-600"
+  >
+    Modal Title
+  </p>
+</div>
+`;

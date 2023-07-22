@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalContent renders ModalContent unchanged 1`] = `
+<div>
+  <div
+    class="flex flex-1 items-center justify-center p-3"
+  >
+    <p>
+      Modal Content
+    </p>
+  </div>
+</div>
+`;

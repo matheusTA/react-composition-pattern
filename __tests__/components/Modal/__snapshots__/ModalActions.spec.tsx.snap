@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalActions renders ModalActions unchanged 1`] = `
+<div>
+  <footer
+    class="flex w-full justify-end gap-2 p-3"
+  >
+    <button>
+      Submit
+    </button>
+  </footer>
+</div>
+`;

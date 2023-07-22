@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalAction renders ModalAction unchanged 1`] = `
+<div>
+  <button
+    class="rounded-md px-4 py-1 text-white bg-transparent"
+  >
+    Save
+  </button>
+</div>
+`;

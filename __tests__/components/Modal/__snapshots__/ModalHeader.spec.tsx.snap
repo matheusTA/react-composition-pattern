@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalHeader renders ModalHeader unchanged 1`] = `
+<div>
+  <header
+    class="bg-slate-200"
+  >
+    <div
+      class="flex items-center justify-between p-3"
+    >
+      <h2>
+        Modal Title
+      </h2>
+    </div>
+  </header>
+</div>
+`;
