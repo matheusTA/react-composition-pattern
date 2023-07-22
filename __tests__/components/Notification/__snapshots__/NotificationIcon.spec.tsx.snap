@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotificationIcon renders NotificationIcon unchanged 1`] = `
+<div>
+  <span
+    data-testid="mock-icon"
+  />
+</div>
+`;

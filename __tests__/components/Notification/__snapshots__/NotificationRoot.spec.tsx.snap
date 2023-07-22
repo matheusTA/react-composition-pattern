@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotificationRoot renders NotificationRoot unchanged 1`] = `
+<div>
+  <div
+    class="flex items-start gap-6 bg-zinc-200 px-8 py-4"
+  >
+    <div
+      data-testid="child-1"
+    >
+      Child
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotificationAction renders NotificationAction unchanged 1`] = `
+<div>
+  <button
+    class="flex h-8 w-8 items-center justify-center rounded bg-zinc-400 hover:bg-zinc-500"
+  >
+    <span
+      data-testid="mock-icon"
+    />
+  </button>
+</div>
+`;

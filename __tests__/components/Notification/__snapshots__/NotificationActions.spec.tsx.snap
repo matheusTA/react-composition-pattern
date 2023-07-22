@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotificationActions renders NotificationActions unchanged 1`] = `
+<div>
+  <div
+    class="flex gap-2 self-center"
+  >
+    <button
+      data-testid="button-1"
+    >
+      cancel
+    </button>
+    <button
+      data-testid="button-2"
+    >
+      submit
+    </button>
+  </div>
+</div>
+`;

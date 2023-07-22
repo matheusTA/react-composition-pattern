@@ -1,7 +1,8 @@
 'use client'
 
 import { Modal } from '@/components/Modal'
-import { X } from 'lucide-react'
+import { Notification } from '@/components/Notification'
+import { Check, Rocket, X } from 'lucide-react'
 import { useState } from 'react'
 
 export default function Home() {
@@ -23,11 +24,61 @@ export default function Home() {
         </h1>
 
         <button
-          className="rounded-md bg-zinc-600 px-2 py-1.5 transition-colors hover:bg-zinc-500"
+          className="rounded-md bg-zinc-500 px-2 py-1.5 text-white transition-colors hover:bg-zinc-600"
           onClick={handleOpenModal}
         >
           Abrir modal
         </button>
+
+        <div className="mx-auto w-[448px] overflow-hidden rounded">
+          <div className="bg-zinc-300 px-5 py-2 text-sm font-medium text-zinc-500">
+            Novas
+          </div>
+
+          <div className="divide-y-2 divide-zinc-300">
+            <Notification.Root>
+              <Notification.Icon icon={Rocket} />
+              <Notification.Content text="Você recebeu um convite para fazer parte da empresa Rocketseat." />
+            </Notification.Root>
+
+            <Notification.Root>
+              <Notification.Content text="Você recebeu um convite para fazer parte da empresa Rocketseat." />
+              <Notification.Actions>
+                <Notification.Action
+                  icon={X}
+                  onClick={() => console.log('cancel')}
+                />
+                <Notification.Action
+                  className="bg-violet-500 hover:bg-violet-600"
+                  icon={Check}
+                  onClick={() => console.log('submit')}
+                />
+              </Notification.Actions>
+            </Notification.Root>
+
+            <Notification.Root>
+              <Notification.Icon icon={Rocket} />
+              <Notification.Content text="Você recebeu um convite para fazer parte da empresa Rocketseat." />
+              <Notification.Actions>
+                <Notification.Action
+                  className="bg-violet-500 hover:bg-violet-600"
+                  icon={Check}
+                  onClick={() => console.log('submit')}
+                />
+              </Notification.Actions>
+            </Notification.Root>
+          </div>
+
+          <div className="bg-zinc-300 px-5 py-2 text-sm font-medium text-zinc-500">
+            Antigas
+          </div>
+
+          <div className="divide-y-2 divide-zinc-300">
+            <Notification.Root>
+              <Notification.Content text="Você recebeu um convite para fazer parte da empresa Rocketseat." />
+            </Notification.Root>
+          </div>
+        </div>
       </main>
 
       <Modal.Root isOpen={isModalOpen}>

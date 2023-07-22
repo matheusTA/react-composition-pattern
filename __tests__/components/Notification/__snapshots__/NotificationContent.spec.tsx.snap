@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotificationContent renders NotificationContent unchanged 1`] = `
+<div>
+  <div
+    class="flex flex-1 flex-col gap-2"
+  >
+    <p
+      class="text-sm leading-relaxed text-zinc-600"
+    >
+      This is a notification content.
+    </p>
+    <div
+      class="flex items-center gap-1 text-xxs text-zinc-400"
+    >
+      <span>
+        Convite
+      </span>
+      <span>
+        Há 3 min
+      </span>
+    </div>
+  </div>
+</div>
+`;
